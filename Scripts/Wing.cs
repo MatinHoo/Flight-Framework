@@ -33,6 +33,7 @@ namespace Flight
             rig.AddForce(GetLiftForce(rig.velocity));
         }
         //方法
+        //获取升力
         private Vector3 GetLiftForce(Vector3 velovity)
         {
             Vector3 rv = transform.InverseTransformVector(velovity);
