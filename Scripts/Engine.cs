@@ -6,8 +6,6 @@ namespace Flight
     public class Engine : MonoBehaviour
     {
         //基本数据
-        public float PitchTorque;
-        public float RollTorque;
         public Rigidbody attachedBody;
         public float Force;
         //组件
